@@ -93,11 +93,15 @@ body{
         padding-left: 20px;
     }
 
-    .rated--first{
+    .rated__star:last-of-type{
+        margin-right: 50px;
+    }
+
+    .rated:first-of-type{
         transform: translateX(-120px);
     }
    
-    .rated--second{
+    .rated:nth-of-type(2){
         transform: translateX(-60px);
     }
    
